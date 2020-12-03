@@ -22,7 +22,7 @@ class NaekSQL:
         self.conn.commit()
         self.conn.close()
 
-    def create_db(self, tables):
+    def create_tables(self, tables):
         if not tables:
             return
 
